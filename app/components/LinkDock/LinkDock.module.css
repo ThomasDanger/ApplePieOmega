@@ -35,3 +35,12 @@
     font-weight: bold;
     font-size:8vh;
 }
+
+@media (min-height:1080px){
+    .link_svg{
+        width: 6vw;
+    }
+    .text{
+        font-size: 6vw;
+    }
+}

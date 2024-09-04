@@ -56,4 +56,7 @@
     .title{
         font-size: 8vw;
     }
+    .applepie{
+        display: none;
+    }
 }
