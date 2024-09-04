@@ -1,0 +1,16 @@
+.container{
+    padding: 0 5vw 0 5vw;
+    background-color: black;
+}
+
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 12vh;
+}
+
+@media(min-height: 1080px){
+    .text{
+        font-size: 5vw;
+    }
+}

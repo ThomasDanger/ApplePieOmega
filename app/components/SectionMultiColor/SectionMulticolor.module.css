@@ -1,0 +1,41 @@
+.container{
+    padding: 0 17vw;
+}
+
+.section_title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
+    font-weight: bolder;
+}
+
+.bubble{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+    border: solid 1px;
+    border-radius: 10px;
+
+    background-color: black;
+    color: white;
+
+}
+
+.list{
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.card_list{
+    display: flex;
+    flex: 1;
+}
+
+.card_list_element{
+    
+}
+
+.card{
+    border: 1px solid;
+    border-radius: 5px;
+}
+

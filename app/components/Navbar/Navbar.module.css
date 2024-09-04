@@ -1,0 +1,38 @@
+.navbar{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.5rem;
+
+    background-color: #151515;
+    height: 50px
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+}
+
+.list_item{
+    margin: 0 0.75rem;
+    
+}
+
+.list_item:hover{
+    text-decoration: underline;
+}
+
+.bubble{
+    padding: 0rem 0.75rem;
+
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.bubble:hover{
+    text-decoration: underline;
+    color: black;
+    background-color: white;
+}

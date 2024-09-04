@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+
+    height: 10vh;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.button:hover{
+    text-decoration: underline;
+    transform: scale(1.03);
+    transform: translateY(-3px);
+}
+
+.list_element{
+    margin: 0 1vh;
+}
+
+.link_svg{
+    width: 8vh;
+}
+
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size:8vh;
+}

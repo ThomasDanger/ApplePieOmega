@@ -1,0 +1,73 @@
+.container{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0 17vw 2vh 17vw;
+
+    display: flex;
+
+}
+
+
+.text_container{
+    flex: 0 0 60%;
+    /*width: 60%;*/
+}
+
+.title{
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.subheading{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.body_container{
+    padding: 0.5rem;
+}
+
+.body{
+    font-size: 20px;
+}
+
+.list{
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.graphics_container{
+    /*width: 40%;*/
+
+    flex: 0 0 40%;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem 1rem;
+}
+
+.list_element{
+
+}
+
+.graphic_list{
+    background-color: red;
+
+    display: flex;
+    flex-direction: column;
+
+    flex: 0 0 50%;
+}
+
+.graphic_list_element{
+    margin: 0.5rem 0;
+    background-color: aqua;
+}
+
+.graphic{
+}
