@@ -107,3 +107,17 @@
     transform: translateY(-3px);
     
 }
+
+@media (max-width:800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container_entry{
+        flex-direction: column;
+    }
+    .title{
+        text-align: center;
+        font-size: 68px;
+    }
+}

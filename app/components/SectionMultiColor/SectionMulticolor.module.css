@@ -28,6 +28,10 @@
 .card_list{
     display: flex;
     flex: 1;
+
+    display: flex;
+    justify-content: center; 
+    text-align:center;
 }
 
 .card_list_element{
@@ -42,4 +46,25 @@
 
 .body{
     padding: 0 1rem;
+}
+
+@media(max-width: 800px){
+    .container{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section_title{
+        font-size: 68px;
+        text-align: center;
+    }
+    .card_list{
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+    }
 }

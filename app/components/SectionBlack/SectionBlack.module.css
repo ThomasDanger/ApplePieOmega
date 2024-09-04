@@ -72,3 +72,34 @@
 
 .graphic{
 }
+
+@media (max-width:800px){
+    .container{
+        flex-direction: column;
+        align-content: center;
+        padding: 2rem;
+    }
+    .title{
+        font-size: 68px;
+        text-align: center;
+    }
+    .subheading{
+        text-align: left;
+    }
+    .body{
+        text-align: left;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .list_element{
+        display: flex;
+        justify-content: center;
+        margin: 0.5rem 0;
+    }
+    .graphic{
+        width: 60%;
+    }
+}

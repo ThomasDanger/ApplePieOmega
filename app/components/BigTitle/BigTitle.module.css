@@ -60,3 +60,25 @@
         display: none;
     }
 }
+
+@media(max-width:800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .applepie{
+        position: relative;
+        right: auto;
+        top: auto;
+        margin: 1rem;
+    }
+    .title{
+        width: auto;
+        font-size: 68px;
+    }
+    .subheading{
+        font-size: 12px;
+        padding: 2rem;
+    }
+}

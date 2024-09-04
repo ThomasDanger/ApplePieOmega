@@ -28,10 +28,10 @@ const SectionBlack: React.FC = () => {
                     <li className={styles.list_element}>
                         <h3 className={styles.body}>Be a <span style={{fontWeight:'bold', color:bgColor}}>Leader</span></h3>
                     </li>
-                    <li>
+                    <li className={styles.list_element}>
                         <h3 className={styles.body}>Be a <span style={{fontWeight:'bold', color:bgColor}}>Friend</span></h3>
                     </li>
-                    <li>
+                    <li className={styles.list_element}>
                         <h3 className={styles.body}>Be of <span style={{fontWeight:'bold', color:bgColor}}>Service</span></h3>
                     </li>
                 </ul>
