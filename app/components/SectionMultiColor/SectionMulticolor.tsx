@@ -16,8 +16,8 @@ const SectionMulticolor: React.FC = () => {
 
 
         <div className={styles.bubble}>
-            <h1 style={{fontSize: '32px', fontWeight: 'bold'}}>Fun Volunteer Events</h1>
-            <h2>By joining <span style={{fontWeight: 'bold', color:bgColor}}>APO</span>, you will be able to attend <span style={{fontWeight: 'bold', color:bgColor}}>
+            <h1 style={{fontSize: '32px', fontWeight: 'bold', padding:'0 1rem'}}>Fun Volunteer Events</h1>
+            <h2 className={styles.body}>By joining <span style={{fontWeight: 'bold', color:bgColor}}>APO</span>, you will be able to attend <span style={{fontWeight: 'bold', color:bgColor}}>
                 fun volunteering events</span> in the DFW area with your <span style={{fontWeight: 'bold', color:bgColor}}>fellow brothers</span> such as:</h2>
             <br/>
             <div>
@@ -38,11 +38,11 @@ const SectionMulticolor: React.FC = () => {
         <br/>
 
         <div className={styles.bubble}>
-            <h1 style={{fontSize: '32px', fontWeight: 'bold'}}>Make New Friends!</h1>
-            <h2>Volunteering is a great way to make <span style={{fontWeight: 'bold', color:bgColor}}>new friends</span>! Especially when  
+            <h1 style={{fontSize: '32px', fontWeight: 'bold', padding:'0 1rem'}}>Make New Friends!</h1>
+            <h2 className={styles.body}>Volunteering is a great way to make <span style={{fontWeight: 'bold', color:bgColor}}>new friends</span>! Especially when  
             you can <span style={{fontWeight: 'bold', color:bgColor}}>volunteer with 20+ familiar faces</span>!</h2>
             <br/>
-            <h2>On top of regular volunteer opportunities, we organize <span style={{fontWeight: 'bold', color:bgColor}}>fun events </span> 
+            <h2 className={styles.body}>On top of regular volunteer opportunities, we organize <span style={{fontWeight: 'bold', color:bgColor}}>fun events </span> 
             to foster <span style={{fontWeight: 'bold', color:bgColor}}>good brotherhood</span> including:</h2>
             <br/>
             <div>
@@ -63,8 +63,8 @@ const SectionMulticolor: React.FC = () => {
         <br/>
 
         <div className={styles.bubble}>
-            <h1 style={{fontSize: '32px', fontWeight: 'bold'}}>Improve Leadership Skills</h1>
-            <h2>With <span style={{fontWeight: 'bold', color:bgColor}}>APO Leads</span>, a five-course workshop created by APO, you can harness 
+            <h1 style={{fontSize: '32px', fontWeight: 'bold', padding:'0 1rem'}}>Improve Leadership Skills</h1>
+            <h2 className={styles.body}>With <span style={{fontWeight: 'bold', color:bgColor}}>APO Leads</span>, a five-course workshop created by APO, you can harness 
             your <span style={{fontWeight: 'bold', color:bgColor}}>leadership skills</span> and explore 
             your <span style={{fontWeight: 'bold', color:bgColor}}>leadership potential</span></h2>
             <div style={{padding:'1rem', display:'flex', justifyContent:'center'}}>
