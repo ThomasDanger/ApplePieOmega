@@ -14,7 +14,7 @@ const JoinSection: React.FC = () => {
         <div className={styles.container_entry}>
             <div className={styles.text_container}>
                 <h1 className={styles.title}>Join.</h1>
-                <h2 className={styles.subheading}>Joining Our Chapter</h2>
+                <h2 className={styles.subheading}>Join Us!</h2>
                 <br></br>
 
                 <div className={styles.body_container}>
