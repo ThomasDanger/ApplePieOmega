@@ -22,7 +22,7 @@ const BigTitle: React.FC = () => {
         </div>
       </div>
       <div className={styles.subheading_container}>
-        <p className={styles.subheading}>A digital posterboard created by the members of Alpha Phi Omega - Alpha Epsilon Zeta.</p>
+        <p className={styles.subheading}>A digital posterboard created by the members of Alpha Phi Omega at The University of Texas at Dallas.</p>
       </div>
       {/* Other content */}
       </div>

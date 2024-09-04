@@ -64,7 +64,7 @@ const SectionMulticolor: React.FC = () => {
 
         <div className={styles.bubble}>
             <h1 style={{fontSize: '32px', fontWeight: 'bold', padding:'0 1rem'}}>Improve Leadership Skills</h1>
-            <h2 className={styles.body}>With <span style={{fontWeight: 'bold', color:bgColor}}>APO Leads</span>, a five-course workshop created by APO, you can harness 
+            <h2 className={styles.body}>With <span style={{fontWeight: 'bold', color:bgColor}}>APO LEADS</span>, a five-course program created by APO, you can harness 
             your <span style={{fontWeight: 'bold', color:bgColor}}>leadership skills</span> and explore 
             your <span style={{fontWeight: 'bold', color:bgColor}}>leadership potential</span></h2>
             <div style={{padding:'1rem', display:'flex', justifyContent:'center'}}>

@@ -12,7 +12,7 @@ const SectionBlack: React.FC = () => {
 
         <div className={styles.text_container}>
             <h1 className={styles.title}>About.</h1>
-            <h2 className={styles.subheading}>Alpha Phi Omega <span style={{fontWeight:'normal'}}>- Alpha Epsilon Zeta</span></h2>
+            <h2 className={styles.subheading}>Alpha Phi Omega</h2>
             <br></br>
 
             <div className={styles.body_container}>
