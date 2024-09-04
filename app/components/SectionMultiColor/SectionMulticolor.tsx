@@ -23,10 +23,10 @@ const SectionMulticolor: React.FC = () => {
             <div>
                 <ul style={{display: 'flex', justifyContent: 'center', textAlign:'center'}}>
                     <li style={{margin: '0 1rem'}}>
-                        <Card src='/PlanoBalloonFestival.jpg' caption='Plano Balloon Festival'/>
+                        <Card src='/APO_Photos/PBF_Personal.PNG' caption='Plano Balloon Festival'/>
                     </li>
                     <li style={{margin: '0 1rem'}}>
-                        <Card src='/StateFair.jpg' caption='Texas State Fair'/>
+                        <Card src='/APO_Photos/StateFairPersonal.PNG' caption='Texas State Fair'/>
                     </li>
                     <li style={{margin: '0 1rem'}}>
                         <Card src='/apple_pie_omega_photos/ServiceGarrettAndAdam.jpeg' caption='APO-organized service events'/>
@@ -38,7 +38,7 @@ const SectionMulticolor: React.FC = () => {
         <br/>
 
         <div className={styles.bubble}>
-            <h1 style={{fontSize: '32px', fontWeight: 'bold', padding:'0 1rem'}}>Make New Friends!</h1>
+            <h1 style={{fontSize: '32px', fontWeight: 'bold', padding:'0 1rem'}}>Make New Friends</h1>
             <h2 className={styles.body}>Volunteering is a great way to make <span style={{fontWeight: 'bold', color:bgColor}}>new friends</span>! Especially when  
             you can <span style={{fontWeight: 'bold', color:bgColor}}>volunteer with 20+ familiar faces</span>!</h2>
             <br/>
@@ -48,13 +48,13 @@ const SectionMulticolor: React.FC = () => {
             <div>
                 <ul style={{display: 'flex', justifyContent: 'center'}}>
                     <li style={{margin: '0 1rem'}}>
-                        <Card src='/apple_pie_omega_photos/BalloonFestival.jpg' caption='Videogame Tournaments'/>
+                        <Card src='/APO_Photos/jackbox.gif' caption='Videogame Tournaments'/>
                     </li>
                     <li style={{margin: '0 1rem'}}>
-                        <Card src='/apple_pie_omega_photos/StateFair.jpg' caption='Movie Marathons'/>
+                        <Card src='/apple_pie_omega_photos/StarGazingRetreat.jpg' caption='Stargazing'/>
                     </li>
                     <li style={{margin: '0 1rem'}}>
-                        <Card src='/apple_pie_omega_photos/StarGazingRetreat.jpg' caption='APO Retreat'/>
+                        <Card src='/apple_pie_omega_photos/SpringRetreatGroupDay.PNG' caption='APO Retreat'/>
                     </li>
                 </ul>
             </div>
@@ -66,10 +66,10 @@ const SectionMulticolor: React.FC = () => {
             <h1 style={{fontSize: '32px', fontWeight: 'bold', padding:'0 1rem'}}>Improve Leadership Skills</h1>
             <h2 className={styles.body}>With <span style={{fontWeight: 'bold', color:bgColor}}>APO LEADS</span>, a five-course program created by APO, you can harness 
             your <span style={{fontWeight: 'bold', color:bgColor}}>leadership skills</span> and explore 
-            your <span style={{fontWeight: 'bold', color:bgColor}}>leadership potential</span></h2>
+            your <span style={{fontWeight: 'bold', color:bgColor}}>leadership potential</span>.</h2>
             <div style={{padding:'1rem', display:'flex', justifyContent:'center'}}>
-                <div style={{width: '30%'}}>
-                    <img src='/Logos/APO-Logo.png'></img>
+                <div style={{display:'flex', justifyContent:'center',width: '30%'}}>
+                    <img src='/Logos/APO-Leads.png'></img>
                 </div>
             </div>
         </div>
